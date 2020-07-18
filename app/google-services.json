@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "419903949868",
+    "firebase_url": "https://nitish-b2609.firebaseio.com",
+    "project_id": "nitish-b2609",
+    "storage_bucket": "nitish-b2609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419903949868:android:aa47c6e391cb0ee2bc9589",
+        "android_client_info": {
+          "package_name": "com.example.nitish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419903949868-t76sqf03m0if1t3hld9h8adod1ee0ef7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nitish",
+            "certificate_hash": "80e3c3e7462ee904e9d9ed5efc4c10fa9e805d39"
+          }
+        },
+        {
+          "client_id": "419903949868-5levvhbibk1190ua56sahs1u8gb6sil4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJTLE273CNQVNrtuUr2kD3reeU2IxPgR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419903949868-5levvhbibk1190ua56sahs1u8gb6sil4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

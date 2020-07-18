@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Nitish</string>
+
+
+    <string-array name="typeofgender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="facebook_app_id">2863583740419016</string>
+    <string name="fb_login_protocol_scheme">fb2863583740419016</string>
+
+
+</resources>
+

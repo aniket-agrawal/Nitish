@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:id="@+id/details_image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:fontFamily="@font/calligraffitti"
+        android:gravity="center"
+        android:text="NIBBA"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:hint="Full Name..."
+        android:inputType="textPersonName"
+        android:layout_below="@+id/details_image"
+        android:background="@drawable/inputs"
+        android:padding="4dp"
+        android:drawableStart="@drawable/status"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"/>
+
+    <EditText
+        android:id="@+id/signup_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/full_name"
+        android:hint="Phone Number..."
+        android:inputType="phone"
+        android:background="@drawable/inputs"
+        android:padding="4dp"
+        android:textSize="25dp"
+        android:drawableStart="@drawable/phone"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"/>
+
+    <TextView
+        android:id="@+id/dob_info_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_phone_number"
+        android:layout_marginTop="20dp"
+        android:text="Date of Birth"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/inputs"
+        android:padding="8dp"/>
+
+    <ImageButton
+        android:id="@+id/dob_user_signup"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/signup_phone_number"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/dob_info_signup"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/calendar"/>
+
+
+    <Button
+        android:id="@+id/submit_details_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:layout_centerHorizontal="true"
+        android:text="Register"/>
+
+</RelativeLayout>
